@@ -17,7 +17,7 @@
 body {
   font-family: var(--font-primary);
   color: var(--black);
-  background-color: var(--white);
+  background-color: #000000;
   line-height: 1.6;
 }
 
@@ -467,7 +467,7 @@ header .container {
   margin-top: 60px;
   display: flex;
   align-items: center;
-  background-color: var(--white);
+  background-color: #000000;
   position: relative;
   overflow: hidden;
 }
@@ -644,6 +644,11 @@ header .container {
 /* Sections */
 section {
   padding: 6rem 0;
+  background-color: var(--white);
+}
+
+section.hero {
+  background-color: #000000;
 }
 
 .section-header {
