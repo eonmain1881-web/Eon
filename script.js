@@ -223,16 +223,19 @@ function initSidebar() {
     const closeBtn = document.getElementById('closeBtn');
     const sidebar = document.getElementById('sidebar');
     const overlay = document.getElementById('sidebarOverlay');
+    const header = document.querySelector('header');
     
     function openSidebar() {
         sidebar.classList.add('active');
         overlay.classList.add('active');
+        header.classList.add('hidden');
         document.body.style.overflow = 'hidden';
     }
     
     function closeSidebar() {
         sidebar.classList.remove('active');
         overlay.classList.remove('active');
+        header.classList.remove('hidden');
         document.body.style.overflow = '';
     }
     
