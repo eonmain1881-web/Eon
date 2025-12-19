@@ -84,17 +84,17 @@ header.scrolled {
   justify-content: center;
   text-decoration: none;
   background-color: var(--white);
-  padding: 0.4rem 1.5rem;
-  border-radius: 0 0 8px 8px;
-  clip-path: polygon(5% 0%, 95% 0%, 100% 100%, 0% 100%);
+  padding: 1.2rem 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo-text {
   font-family: var(--font-secondary);
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 2.2rem;
+  font-weight: 500;
   color: var(--black);
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 .nav-links {
