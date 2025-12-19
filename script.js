@@ -13,15 +13,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Header scroll effect
+// Header scroll effect - becomes transparent when scrolling
 window.addEventListener('scroll', function() {
     const header = document.querySelector('header');
     if (window.scrollY > 100) {
-        header.style.padding = '0.8rem 0';
-        header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.3)';
+        header.classList.add('scrolled');
     } else {
-        header.style.padding = '1rem 0';
-        header.style.boxShadow = 'none';
+        header.classList.remove('scrolled');
     }
 });
 
