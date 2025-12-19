@@ -252,24 +252,6 @@ function initSidebar() {
     if (overlay) {
         overlay.addEventListener('click', closeSidebar);
     }
-    
-    // Sidebar search
-    const sidebarSearchInput = document.getElementById('sidebarSearchInput');
-    const sidebarSearchBtn = document.getElementById('sidebarSearchBtn');
-    
-    if (sidebarSearchBtn) {
-        sidebarSearchBtn.addEventListener('click', () => {
-            performSearch(sidebarSearchInput.value);
-        });
-    }
-    
-    if (sidebarSearchInput) {
-        sidebarSearchInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                performSearch(sidebarSearchInput.value);
-            }
-        });
-    }
 }
 
 // ===== SEARCH FUNCTIONALITY =====
