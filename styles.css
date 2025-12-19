@@ -62,9 +62,12 @@ header {
   background-color: #000000;
   backdrop-filter: blur(10px);
   z-index: 1000;
-  padding: 0.6rem 0;
+  padding: 0;
   border-bottom: none;
-  transition: background-color 0.4s ease, padding 0.3s ease;
+  transition: background-color 0.4s ease;
+  height: 60px;
+  display: flex;
+  align-items: center;
 }
 
 header.scrolled {
@@ -72,10 +75,18 @@ header.scrolled {
   backdrop-filter: blur(15px);
 }
 
+header .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  position: relative;
 }
 
 .logo {
@@ -84,12 +95,11 @@ header.scrolled {
   justify-content: center;
   text-decoration: none;
   background-color: var(--white);
-  padding: 0.8rem 4.5rem;
+  padding: 0.6rem 4rem;
   border-radius: 0;
   cursor: pointer;
-  position: absolute;
-  left: 50px;
-  overflow: hidden;
+  height: 100%;
+  position: relative;
 }
 
 .logo-text {
@@ -436,9 +446,9 @@ header.scrolled {
 
 /* Hero Section */
 .hero {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 60px);
   min-height: 500px;
-  margin-top: 70px;
+  margin-top: 60px;
   display: flex;
   align-items: center;
   background-color: var(--white);
