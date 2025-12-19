@@ -116,9 +116,16 @@ header .container {
   transform: scale(1.1);
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
 .nav-links {
   display: flex;
   list-style: none;
+  margin-right: 2rem;
 }
 
 .nav-links li {
