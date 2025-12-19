@@ -79,6 +79,9 @@ header .container {
   display: flex;
   align-items: center;
   height: 100%;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
 }
 
 .navbar {
@@ -86,13 +89,14 @@ header .container {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0 20px;
+  padding: 0;
 }
 
 .nav-left {
   display: flex;
   align-items: center;
   gap: 2rem;
+  margin-left: 20px;
 }
 
 .logo {
