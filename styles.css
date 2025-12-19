@@ -84,7 +84,7 @@ header.scrolled {
   justify-content: center;
   text-decoration: none;
   background-color: var(--white);
-  padding: 0.25rem 0.6rem;
+  padding: 0.25rem 1.2rem;
   border-radius: 2px;
 }
 
