@@ -86,7 +86,13 @@ header .container {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  position: relative;
+  padding: 0 20px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .logo {
@@ -95,7 +101,7 @@ header .container {
   justify-content: center;
   text-decoration: none;
   background-color: var(--white);
-  padding: 0.6rem 4rem;
+  padding: 0.6rem 2.5rem;
   border-radius: 0;
   cursor: pointer;
   height: 100%;
@@ -116,20 +122,14 @@ header .container {
   transform: scale(1.1);
 }
 
-.nav-right {
-  display: flex;
-  align-items: center;
-  gap: 0;
-}
-
 .nav-links {
   display: flex;
   list-style: none;
-  margin-right: 2rem;
+  gap: 0.5rem;
 }
 
 .nav-links li {
-  margin: 0 1.5rem;
+  margin: 0 1rem;
 }
 
 .nav-links a {
