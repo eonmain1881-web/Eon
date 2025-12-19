@@ -84,13 +84,13 @@ header.scrolled {
   justify-content: center;
   text-decoration: none;
   background-color: var(--white);
-  padding: 0.8rem 2rem;
+  padding: 0.8rem 2.8rem;
   border-radius: 0;
 }
 
 .logo-text {
   font-family: var(--font-secondary);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 500;
   color: var(--black);
   letter-spacing: 3px;
