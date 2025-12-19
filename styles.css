@@ -84,9 +84,12 @@ header.scrolled {
   justify-content: center;
   text-decoration: none;
   background-color: var(--white);
-  padding: 0.8rem 3.5rem;
+  padding: 0.8rem 4.5rem;
   border-radius: 0;
   cursor: pointer;
+  position: absolute;
+  left: 50px;
+  overflow: hidden;
 }
 
 .logo-text {
@@ -95,11 +98,12 @@ header.scrolled {
   font-weight: 500;
   color: var(--black);
   letter-spacing: 3px;
-  transition: color 0.3s ease;
+  transition: transform 0.3s ease, font-weight 0.3s ease;
 }
 
 .logo:hover .logo-text {
-  color: #666666;
+  font-weight: 700;
+  transform: scale(1.1);
 }
 
 .nav-links {
