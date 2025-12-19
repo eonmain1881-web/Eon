@@ -89,7 +89,7 @@ header.scrolled {
 }
 
 .logo img {
-  height: 45px;
+  height: 55px;
   width: auto;
 }
 
@@ -451,16 +451,14 @@ header.scrolled {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
   opacity: 0;
-  filter: brightness(0.3);
+  filter: brightness(0.4);
   transition: opacity 1s ease, filter 1s ease;
 }
 
 .hero-slider .slide.active {
   opacity: 1;
-  filter: brightness(0.6);
+  filter: brightness(0.7);
 }
 
 .slider-arrow {
